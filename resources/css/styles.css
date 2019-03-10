@@ -74,6 +74,11 @@ aside {
     height: 510px;
 }
 
+.header__slider img{
+    width: 100%;
+    height: 100%;
+}
+
 .header__rand_container {
     position: relative;
     height: 100%;
@@ -235,8 +240,8 @@ aside {
 }
 
 .logo, .logo_link {
-    min-width: 199px;
-    height: 36px;
+    width: 183px;
+    height: 31px;
 }
 
 .logo_link img {
