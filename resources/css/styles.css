@@ -79,6 +79,15 @@ aside {
     height: 100%;
 }
 
+.header__slider {
+    position: absolute;
+    background: url(../images/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
 .header__rand_container {
     position: relative;
     height: 100%;
