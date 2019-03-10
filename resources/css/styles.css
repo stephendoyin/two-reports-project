@@ -1337,7 +1337,7 @@ table tr td:nth-child(2), table tr td:nth-child(3) {
     }
 }
 
-.owl-carousel .owl-item img {
+.header__slider_container .owl-carousel .owl-item img {
     display: block;
     width: 1280px;
 }
