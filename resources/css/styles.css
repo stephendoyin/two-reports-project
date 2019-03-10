@@ -79,15 +79,6 @@ aside {
     height: 100%;
 }
 
-.header__slider {
-    position: absolute;
-    background: url(../images/hero.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-}
-
 .header__rand_container {
     position: relative;
     height: 100%;
@@ -107,6 +98,10 @@ aside {
     width: 100%;
     height: 510px;
     z-index: -667;
+}
+
+.header__slider  img{
+    background: linear-gradient(180deg, rgba(224, 9, 9, 0.1) 0%, rgba(224, 9, 9, 0.0315789) 21.55%, rgba(224, 9, 9, 0) 31.49%, rgba(224, 9, 9, 0.00567005) 38.77%, rgba(224, 9, 9, 0.0143646) 85.64%, rgba(224, 9, 9, 0.0473684) 87.85%);
 }
 
 .header__navigation {
@@ -324,6 +319,11 @@ aside {
 
 .header__title--red {
     color: #E00909
+}
+
+.header__slider {
+    width: 100%;
+    overflow: hidden;
 }
 
 @media only screen and (max-width: 987px) {
@@ -1335,4 +1335,9 @@ table tr td:nth-child(2), table tr td:nth-child(3) {
     .home__side_right_container {
         width: 100%;
     }
+}
+
+.owl-carousel .owl-item img {
+    display: block;
+    width: 1280px;
 }
