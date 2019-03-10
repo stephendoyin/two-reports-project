@@ -403,6 +403,13 @@ aside {
     margin-right: 48px;
 }
 
+@media only screen and (max-width: 400px) {
+    .home__btn-responsive:link{
+        padding: 6px 16px;
+        font-size: 13px;
+    }
+}
+
 .home__side_container {
     width: 270px;
     background: rgba(0, 0, 0, 0.8);
@@ -865,7 +872,7 @@ table tr td:nth-child(2), table tr td:nth-child(3) {
     font-family: Sofia Pro;
     line-height: normal;
     font-size: 20px;
-    color: #fcfcfc9e;
+    color: rgba(255, 255, 255, 0.884);
     font-weight: 200
 }
 
@@ -945,7 +952,7 @@ table tr td:nth-child(2), table tr td:nth-child(3) {
 @media only screen and (max-width: 900px) {
     .home__sign_up_title {
         font-size: 26px;
-        margin-right: 1%;
+        margin-right: 6%;
     }
 }
 
