@@ -91,5 +91,14 @@ $(document).ready(function(){
         }
     });
 
+    $('.home__sec_next').click(function() {
+        owl.trigger('next.owl.carousel');
+    })
+
+
+    $('.home__sec_previous').click(function() {
+        owl.trigger('prev.owl.carousel');
+    })
+
 });
 

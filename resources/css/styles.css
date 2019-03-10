@@ -1115,7 +1115,8 @@ table tr td:nth-child(2), table tr td:nth-child(3) {
         display: none;
     }
     .home_section_for_news--tab--mobile {
-        display: block
+        display: block;
+        position: relative;
     }
 }
 
@@ -1150,8 +1151,16 @@ table tr td:nth-child(2), table tr td:nth-child(3) {
     cursor: pointer;
 }
 
-.home__next_btn {
+/* .home__sec_next{
+    right: 4%;
+} */
+
+.home__next_btn{
     right: 0%;
+}
+
+.home__next_btn--shift{
+    right: 4.5%;
 }
 
 .home__partner_title {
